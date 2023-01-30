@@ -9,3 +9,29 @@ header{
   height: 70px;
   background-color: #EC715F;
 }
+
+.header-area{
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.header-logo img{
+  display: flex;
+  width: 150px;
+  height: auto;
+}
+
+.nav-list{
+  width: 874px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list-item{
+  list-style: none;
+  line-height: 70px;
+  font-size: 16px;
+  color: #FAFAFA;
+  margin: 0 30px;
+}
