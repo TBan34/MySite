@@ -60,9 +60,13 @@ header{
 }
 
 /*ポートフォリオ*/
+.background{
+  width: 100%;
+  background-color: #ECEFF1;
+}
+
 .main-portfolio{
   width: 920px;
-  background-color: #ECEFF1;
   margin: 0 auto;
 }
 
@@ -101,7 +105,6 @@ header{
 .portfolio-visual img{
   width: 300px;
   height: 250px;
-  text-align: center;
 }
 
 .portfolio-visual img:nth-child(1), portfolio-visual img:nth-child(2){
@@ -117,7 +120,7 @@ header{
   padding-right: 10px;
 }
 
-/*特徴*/
+/*フィーチャー*/
 .main-feature{
   width: 980px;
   margin: 0 auto;
@@ -128,7 +131,6 @@ header{
   color: #000000;
   padding-top: 90px;
   text-align: center;
-  position: relative;
 }
 
 .feature-title::after{
@@ -181,6 +183,68 @@ header{
 }
 
 /*プロフィール*/
+/*背景色はポートフォリオで指定済み*/
+.profile{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.profile-title{
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.profile-title::after{
+  content: '';
+  position: relative;
+  bottom: -16px;
+  height: 3px;
+  width: 70px;
+  display: inline-block;
+  background-color: #EC715F;
+  left: calc(-100px);
+}
+
+.profile-body{
+  font-size: 16px;
+  color: #000000;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.profile-contents{
+  display: flex;
+  padding-bottom: 90px;
+}
+
+.profile-image{
+  width: 512px;
+  text-align: center;
+}
+
+.profile-image img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.introduction{
+  width: 512px;
+}
+
+.introduction-title{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.introduction-body{
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
 /*コンタクト*/
 
 /*フッター*/
