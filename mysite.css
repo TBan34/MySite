@@ -246,6 +246,71 @@ header{
 }
 
 /*コンタクト*/
+.contact{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-title{
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.contact-title::after{
+  content: '';
+  position: relative;
+  bottom: -16px;
+  height: 3px;
+  width: 70px;
+  display: inline-block;
+  background-color: #EC715F;
+  left: calc(-100px);
+}
+
+.contact-body{
+  font-size: 16px;
+  color: #000000;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.contact-contents{
+  display: flex;
+  padding-bottom: 90px;
+}
+
+.mail-tel{
+  width: 400px;
+}
+
+.mt-title{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.mt-body{
+  margin-bottom: 20px;
+}
+
+.sns{
+  width: 400px;
+}
+
+.sns-title{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.sns-body{
+  display: flex;
+}
+
+.sns-logo{
+  font-size: 50px;
+  margin-right: 20px;
+}
 
 /*フッター*/
 footer{
